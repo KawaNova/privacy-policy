@@ -40,5 +40,5 @@ AozoraDev-tech（以下「当方」）は、当方が提供するスマートフ
 
 本アプリおよびプライバシーポリシーに関するお問い合わせは、下記までお願いいたします。
 
-* 開発者名：AozoraDev-tech
+* 開発者名：KawaNova
 * メールアドレス：kawa.dev.acc0unt@gmail.com
