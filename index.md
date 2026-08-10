@@ -9,6 +9,7 @@ KawaNova / KawaDev が開発・提供しているスマートフォン向けア�
 * [ITパスポート 過去問](./IT-Passport.html)
 * [FP3 Trainer Android App](./FP3-Trainer.html)
 * [NovusArcade: つぶやきミニゲーム集 - 概要](NovusArcade.html)
+* [らくフォト AI (RakuPhoto AI)](./RakuPhotoAI.html) — com.kawanova.rakuphotoai
 
 ## GitHub Pages
 
