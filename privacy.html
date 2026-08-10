@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>オフモジ（OffMoji）プライバシーポリシー</title>
+  <style>
+    :root {
+      --forest: #1B4D3E;
+      --ink: #12201B;
+      --mist: #F3F7F5;
+      --slate: #4A5C55;
+      --line: #C5D2CB;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Hiragino Sans", "Noto Sans JP", "Segoe UI", sans-serif;
+      color: var(--ink);
+      background: var(--mist);
+      line-height: 1.7;
+    }
+    header {
+      background: var(--forest);
+      color: #fff;
+      padding: 2.5rem 1.25rem 2rem;
+    }
+    header h1 {
+      margin: 0 0 0.35rem;
+      font-size: 1.6rem;
+      font-weight: 700;
+    }
+    header p {
+      margin: 0;
+      opacity: 0.9;
+      font-size: 0.95rem;
+    }
+    main {
+      max-width: 40rem;
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem 3rem;
+    }
+    h2 {
+      margin: 1.75rem 0 0.6rem;
+      font-size: 1.15rem;
+      color: var(--forest);
+    }
+    p, li { color: var(--ink); font-size: 0.98rem; }
+    ul { padding-left: 1.25rem; }
+    .meta {
+      margin-top: 2rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--line);
+      color: var(--slate);
+      font-size: 0.88rem;
+    }
+    a { color: var(--forest); }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>オフモジ（OffMoji）プライバシーポリシー</h1>
+    <p>開発元: KawaNova / ofumoji.inc　|　最終更新: 2026年8月10日</p>
+  </header>
+  <main>
+    <p>
+      本ポリシーは、Android アプリ「オフモジ」（英語表記: OffMoji、パッケージ名: com.kawanova.talktext、以下「本アプリ」）における個人情報および関連データの取り扱いについて説明します。
+      本アプリは、授業・講義・会議などの<strong>日本語音声を端末内で文字起こし</strong>するためのオフライン対応ツールです。
+      音声認識の処理は原則として端末内で行い、マイク音声や文字起こし結果を当社サーバーへ送信することはありません。
+    </p>
+
+    <h2>1. 収集・処理する情報</h2>
+    <ul>
+      <li><strong>マイク音声</strong>: ライブ文字起こし時に端末内でリアルタイム処理します。音声データそのものは外部サーバーへアップロードしません。</li>
+      <li><strong>文字起こしテキスト</strong>: 端末内で生成・表示します。ユーザーが保存操作を行った場合のみ、端末内ストレージ（アプリ専用領域）に保存されます。</li>
+      <li><strong>録音ファイル（任意）</strong>: 設定で「音声も録音する」を有効にした場合、WAV 形式のファイルが端末内に保存されます。</li>
+      <li><strong>選択した音声／動画ファイル</strong>: ファイル文字起こし時に、ユーザーが端末上で選択したメディアを端末内でデコード・認識します。ファイル内容を当社サーバーへアップロードすることはありません。</li>
+      <li><strong>音声認識モデル</strong>: 初回起動時などに、SenseVoice / ReazonSpeech Zipformer / Silero VAD などのモデルファイルを端末内へダウンロードし、認識処理に利用します。</li>
+    </ul>
+
+    <h2>2. 端末内での保存</h2>
+    <p>次のデータは端末内（アプリ専用領域）に保存される場合があります。</p>
+    <ul>
+      <li>保存した文字起こしテキスト（履歴）</li>
+      <li>任意設定による録音音声（WAV）</li>
+      <li>ダウンロード済みの音声認識モデル</li>
+      <li>アプリ設定（マイク感度、認識モデルの選択など）</li>
+    </ul>
+    <p>
+      ユーザーは「保存したテキスト」画面から各履歴を削除できます。
+      アプリをアンインストールすると、通常これらのデータも端末から削除されます。
+      Android のバックアップ機能が有効な端末では、OS のバックアップ設定に従いアプリデータが端末外へコピーされる場合があります。
+    </p>
+
+    <h2>3. ネットワークの利用</h2>
+    <p>本アプリがネットワークを利用するのは、次の場合に限られます。</p>
+    <ul>
+      <li>音声認識モデル（SenseVoice / ReazonSpeech Zipformer / Silero VAD）の初回・追加ダウンロード</li>
+      <li>広告（Google AdMob）の配信</li>
+      <li>お問い合わせフォームなど外部ページの表示（ブラウザ）</li>
+      <li>本プライバシーポリシー等の外部リンクの表示</li>
+    </ul>
+    <p><strong>マイク音声、選択したメディア、文字起こし本文を当社サーバーへ送信することはありません。</strong></p>
+
+    <h2>4. 広告</h2>
+    <p>
+      本アプリは Google AdMob を利用して、バナー広告およびリワード広告（動画視聴後に保存・コピー・共有機能を解放する形式）を表示します。
+      広告 SDK は、端末の広告 ID（Advertising ID）やアプリの利用状況に関する情報を、Google のポリシーに従って収集・利用する場合があります。
+    </p>
+    <p>
+      詳細は
+      <a href="https://policies.google.com/privacy" rel="noopener noreferrer">Google プライバシーポリシー</a>
+      および
+      <a href="https://support.google.com/admob/answer/6128543" rel="noopener noreferrer">AdMob に関する Google の案内</a>
+      をご確認ください。
+      端末の設定から広告のパーソナライズを制限・オプトアウトできる場合があります。
+    </p>
+
+    <h2>5. 権限</h2>
+    <p>本アプリが要求する主な権限と目的は次のとおりです。</p>
+    <ul>
+      <li><strong>マイク（RECORD_AUDIO）</strong>: ライブ文字起こし、および任意設定による音声録音のため</li>
+      <li><strong>インターネット（INTERNET）</strong>: モデルのダウンロード、広告配信、外部リンク（お問い合わせ等）の表示のため</li>
+      <li><strong>広告 ID（AD_ID）</strong>: AdMob による広告配信のため（Google Play サービス経由）</li>
+    </ul>
+    <p>
+      ファイル文字起こしでは、Android のファイル選択 UI（ストレージアクセスフレームワーク）を利用します。
+      ユーザーが選択したファイルへのアクセスに、従来型の外部ストレージ読み書き権限は必要としません。
+    </p>
+
+    <h2>6. 第三者提供</h2>
+    <p>
+      当社（KawaNova / ofumoji.inc）が、ユーザーの音声・文字起こし内容を第三者へ販売・提供することはありません。
+      広告表示に伴う情報の取扱いは、前項の広告 SDK 提供者（Google）のポリシーに従います。
+      法令に基づく開示請求など、正当な理由がある場合を除き、当社から第三者へ個人データを提供することはありません。
+    </p>
+
+    <h2>7. 対応言語・動作環境</h2>
+    <p>
+      本バージョンの音声認識は<strong>日本語専用</strong>です。他言語の音声は正しく認識できない場合があります。
+      対応 CPU アーキテクチャは arm64（arm64-v8a）に限られます。
+    </p>
+
+    <h2>8. 子ども・学生の利用</h2>
+    <p>
+      本アプリは授業の文字起こしなど、学生・一般ユーザーの学習支援を想定していますが、特定の年齢層のみを対象としたサービスではありません。
+      保護者の方は、お子さまの端末利用状況にご注意ください。
+    </p>
+
+    <h2>9. お問い合わせ</h2>
+    <p>
+      本ポリシーまたは個人情報の取り扱いに関するお問い合わせは、次の方法でご連絡ください。
+    </p>
+    <ul>
+      <li>アプリ内「ヘルプ &amp; クレジット」→「お問い合わせ」フォーム</li>
+      <li>開発元: KawaNova / ofumoji.inc</li>
+    </ul>
+    <p>
+      （連絡先メールアドレス等を追加する場合は、本ページを更新して掲載します。）
+    </p>
+
+    <h2>10. 改定</h2>
+    <p>
+      本ポリシーは、法令の改正やアプリ機能の変更に応じて改定することがあります。
+      重要な変更がある場合は、本ページの更新日を改めます。改定後も本アプリを継続利用された場合、改定後のポリシーに同意したものとみなします。
+    </p>
+
+    <p class="meta">
+      オフモジ（OffMoji） / com.kawanova.talktext<br />
+      開発: KawaNova / ofumoji.inc<br />
+      本ページは Google Play Console 登録用の公開プライバシーポリシーとして利用できます。
+    </p>
+  </main>
+</body>
+</html>
