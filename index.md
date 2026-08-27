@@ -1,6 +1,6 @@
 # アプリケーション プライバシーポリシー一覧
 
-KawaNova / KawaDev が開発・提供しているスマートフォン向けアプリのプライバシーポリシーは以下の通りです。
+KawaNova / KawaDev が開発・提供しているアプリおよび Chrome 拡張機能のプライバシーポリシーは以下の通りです。
 
 * [オフモジ（OffMoji）](./privacy.html) — com.kawanova.talktext
 * [Python 3 エンジニア：データ分析実技 対策アプリ](./Python3-DataAnalysis.html)
@@ -11,6 +11,11 @@ KawaNova / KawaDev が開発・提供しているスマートフォン向けア�
 * [NovusArcade: つぶやきミニゲーム集 - 概要](NovusArcade.html)
 * [らくフォト AI (RakuPhoto AI)](./RakuPhotoAI.html) — com.kawanova.rakuphotoai
 
+## Chrome 拡張機能
+
+* [TabMarkList](./tabmarklist.html)
+* [DeepWork Vault](./deepwork-vault.html)
+
 ## GitHub Pages
 
 このリポジトリは **GitHub Pages** で公開しています。
@@ -19,6 +24,7 @@ KawaNova / KawaDev が開発・提供しているスマートフォン向けア�
 |------|-----|
 | 公開 URL（トップ） | https://kawanova.github.io/privacy-policy/ |
 | オフモジ privacy | https://kawanova.github.io/privacy-policy/privacy.html |
+| TabMarkList | https://kawanova.github.io/privacy-policy/tabmarklist.html |
 
 ### 初回セットアップ（参考）
 

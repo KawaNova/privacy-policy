@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy – TabMarkList</title>
+  <style>
+    body { font-family: sans-serif; max-width: 800px; margin: 40px auto; padding: 0 20px; line-height: 1.7; color: #333; }
+    h1 { font-size: 1.8rem; }
+    h2 { font-size: 1.2rem; margin-top: 2rem; }
+    p, li { margin: 0.5rem 0; }
+    hr { margin: 2.5rem 0; border: 0; border-top: 1px solid #ddd; }
+  </style>
+</head>
+<body>
+
+<h1>Privacy Policy – TabMarkList</h1>
+<p><em>最終更新: 2026年8月27日 / Last updated: August 27, 2026</em></p>
+<p>Chrome 拡張機能 TabMarkList（開発: KawaNova）のプライバシーポリシーです。</p>
+
+<h2>日本語</h2>
+
+<p>TabMarkList は、開いているタブのタイトルと URL から Markdown のリンク一覧を作り、ユーザーの操作でクリップボードへコピーする拡張です。Pro 機能の解除には Gumroad のライセンスキーを使います。</p>
+
+<h2>1. 収集する情報</h2>
+<ul>
+  <li><strong>開いているタブのタイトルと URL</strong>（ウェブ履歴に相当）: コピー時に Chrome の tabs API で読みます。閲覧履歴 API は使いません。ページ本文・画像・Cookie は読みません。</li>
+  <li><strong>ライセンスキー</strong>（認証情報）: Pro 解除のためにユーザーが入力した Gumroad ライセンスキーです。氏名・メールアドレス・住所・パスワードは拡張から収集しません。支払い（カード番号など）は Gumroad の購入ページで行われ、拡張は受け取りません。</li>
+  <li><strong>端末内の設定</strong>: Pro 解除済みかどうかとライセンスキーを chrome.storage.local に保存します。</li>
+</ul>
+
+<h2>2. 利用目的</h2>
+<p>タイトルと URL は Markdown 一覧の生成と、ユーザー操作によるクリップボードへの書き込みだけに使います。ライセンスキーは Pro 上限の解除判定だけに使います。広告・プロファイリング・与信・融資には使いません。</p>
+
+<h2>3. 共有（第三者への送信）</h2>
+<p>タイトルと URL は外部へ送りません。端末内だけで使い、コピー先はユーザーのクリップボードです。</p>
+<p>ライセンスキーは、検証のためだけに <code>https://api.gumroad.com/v2/licenses/verify</code> へ HTTPS で送ります（商品 ID または permalink も付与します）。Gumroad の取り扱いは <a href="https://gumroad.com/privacy">Gumroad Privacy Policy</a> に従います。開発者（KawaNova）のサーバーへユーザーデータを送る機能はありません。データを販売しません。</p>
+
+<h2>4. 権限</h2>
+<ul>
+  <li><strong>tabs</strong>: 開いているタブのタイトルと URL を読み、Markdown 一覧を作るため。</li>
+  <li><strong>clipboardWrite</strong>: ユーザーがコピーを押したとき、生成した Markdown をクリップボードへ書くため。</li>
+  <li><strong>storage</strong>: Pro 解除状態とライセンスキーを端末内に保存するため。</li>
+  <li><strong>https://api.gumroad.com/*</strong>: ライセンス検証 API を呼ぶため。</li>
+</ul>
+
+<h2>5. 保管と削除</h2>
+<p>データはユーザーの Chrome プロファイル内（chrome.storage.local）にあります。拡張を削除するか、Chrome のサイトデータ削除で消えます。開発者が遠隔から個別ユーザーのデータを閲覧・削除する仕組みはありません。</p>
+
+<h2>6. Chrome Web Store Limited Use</h2>
+<p>TabMarkList は Chrome ウェブストアのユーザーデータポリシー（Limited Use）に従います。権限で得たデータは、タブ一覧の Markdown 化とライセンス検証に必要な範囲だけ使います。広告・リターゲティング・与信判定には使いません。人間がユーザーのタブ一覧やライセンスキーを読む運用はありません。</p>
+
+<h2>7. お問い合わせ</h2>
+<p>本ポリシーに関する質問は、商品ページ <a href="https://kawadev6.gumroad.com/l/tabmarklist">kawadev6.gumroad.com/l/tabmarklist</a> または <a href="mailto:kawa.dev.acc0unt@gmail.com">kawa.dev.acc0unt@gmail.com</a> まで。</p>
+
+<hr>
+
+<h2>English</h2>
+
+<p>TabMarkList is a Chrome extension that builds a Markdown link list from open tab titles and URLs, and copies it to the clipboard when the user asks. Pro features are unlocked with a Gumroad license key.</p>
+
+<h2>1. Data we handle</h2>
+<ul>
+  <li><strong>Open tab titles and URLs</strong> (web history): read via the Chrome tabs API on copy. The extension does not use the browsing history API, and does not read page bodies, images, or cookies.</li>
+  <li><strong>License key</strong> (authentication): the Gumroad key the user types to unlock Pro. The extension does not collect name, email, address, or passwords. Payment card data is entered on Gumroad’s checkout, not in the extension.</li>
+  <li><strong>Local settings</strong>: Pro unlock state and the license key are stored in chrome.storage.local.</li>
+</ul>
+
+<h2>2. How we use it</h2>
+<p>Titles and URLs are used only to build Markdown and write it to the clipboard after a user click. The license key is used only to decide whether Pro limits apply. We do not use this data for ads, profiling, creditworthiness, or lending.</p>
+
+<h2>3. Sharing</h2>
+<p>Titles and URLs are not sent off the device. They stay local except for the user’s clipboard.</p>
+<p>The license key is sent over HTTPS only to <code>https://api.gumroad.com/v2/licenses/verify</code>, with product id or permalink, to verify the purchase. See the <a href="https://gumroad.com/privacy">Gumroad Privacy Policy</a>. The extension does not send user data to a KawaNova server. We do not sell user data.</p>
+
+<h2>4. Permissions</h2>
+<ul>
+  <li><strong>tabs</strong>: read open tab titles and URLs to build the Markdown list.</li>
+  <li><strong>clipboardWrite</strong>: write the Markdown to the clipboard when the user clicks Copy.</li>
+  <li><strong>storage</strong>: save Pro unlock state and the license key on the device.</li>
+  <li><strong>https://api.gumroad.com/*</strong>: call the license verification API.</li>
+</ul>
+
+<h2>5. Retention and deletion</h2>
+<p>Data lives in the user’s Chrome profile (chrome.storage.local). Uninstalling the extension or clearing Chrome site data removes it. The developer cannot remotely view or delete an individual user’s data.</p>
+
+<h2>6. Chrome Web Store Limited Use</h2>
+<p>TabMarkList complies with the Chrome Web Store User Data Policy, including Limited Use. Permission-derived data is used only for Markdown tab lists and license verification. It is not used for ads, retargeting, or credit decisions. Humans do not read users’ tab lists or license keys in the course of operating the product.</p>
+
+<h2>7. Contact</h2>
+<p>Questions about this policy: <a href="https://kawadev6.gumroad.com/l/tabmarklist">kawadev6.gumroad.com/l/tabmarklist</a> or <a href="mailto:kawa.dev.acc0unt@gmail.com">kawa.dev.acc0unt@gmail.com</a>.</p>
+
+</body>
+</html>

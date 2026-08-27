@@ -1,11 +1,12 @@
 # privacy-policy
 
-Hosted privacy policies for [KawaNova](https://github.com/KawaNova) Android apps (GitHub Pages).
+Hosted privacy policies for [KawaNova](https://github.com/KawaNova) Android apps and Chrome extensions (GitHub Pages).
 
 ## Live site
 
 - Index: https://kawanova.github.io/privacy-policy/
 - OffMoji (com.kawanova.talktext): https://kawanova.github.io/privacy-policy/privacy.html
+- TabMarkList (Chrome): https://kawanova.github.io/privacy-policy/tabmarklist.html
 
 ## GitHub Pages setup
 
