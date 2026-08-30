@@ -6,6 +6,7 @@ Hosted privacy policies for [KawaNova](https://github.com/KawaNova) Android apps
 
 - Index: https://kawanova.github.io/privacy-policy/
 - OffMoji (com.kawanova.talktext): https://kawanova.github.io/privacy-policy/privacy.html
+- Wanpo Alert (com.kawanova.wanpo_alert): https://kawanova.github.io/privacy-policy/WanpoAlert.html
 - TabMarkList (Chrome): https://kawanova.github.io/privacy-policy/tabmarklist.html
 
 ## GitHub Pages setup

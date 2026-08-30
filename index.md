@@ -10,6 +10,7 @@ KawaNova / KawaDev が開発・提供しているアプリおよび Chrome 拡�
 * [FP3 Trainer Android App](./FP3-Trainer.html)
 * [NovusArcade: つぶやきミニゲーム集 - 概要](NovusArcade.html)
 * [らくフォト AI (RakuPhoto AI)](./RakuPhotoAI.html) — com.kawanova.rakuphotoai
+* [わんぽアラート（Wanpo Alert）](./WanpoAlert.html) — com.kawanova.wanpo_alert
 
 ## Chrome 拡張機能
 
@@ -24,6 +25,7 @@ KawaNova / KawaDev が開発・提供しているアプリおよび Chrome 拡�
 |------|-----|
 | 公開 URL（トップ） | https://kawanova.github.io/privacy-policy/ |
 | オフモジ privacy | https://kawanova.github.io/privacy-policy/privacy.html |
+| わんぽアラート | https://kawanova.github.io/privacy-policy/WanpoAlert.html |
 | TabMarkList | https://kawanova.github.io/privacy-policy/tabmarklist.html |
 
 ### 初回セットアップ（参考）
