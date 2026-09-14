@@ -11,6 +11,7 @@ KawaNova / KawaDev が開発・提供しているアプリおよび Chrome 拡�
 * [NovusArcade: つぶやきミニゲーム集 - 概要](NovusArcade.html)
 * [らくフォト AI (RakuPhoto AI)](./RakuPhotoAI.html) — com.kawanova.rakuphotoai
 * [わんぽアラート（Wanpo Alert）](./WanpoAlert.html) — com.kawanova.wanpo_alert
+* [データ分析SQL基礎ドリル](./sql-query-drill.html) — com.kawanova.sql_query_drill
 
 ## Chrome 拡張機能
 
