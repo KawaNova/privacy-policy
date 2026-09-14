@@ -13,6 +13,8 @@ KawaNova / KawaDev が開発・提供しているアプリおよび Chrome 拡�
 * [わんぽアラート（Wanpo Alert）](./WanpoAlert.html) — com.kawanova.wanpo_alert
 * [Android — データ分析SQL基礎ドリル](./android-sql-query-drill.html) — com.kawanova.sql_query_drill
 
+* [Android — 簿記3級 仕訳ミニドリル](./android-boki-journal-drill.html) — com.kawanova.bokijournal
+
 ## Chrome 拡張機能
 
 * [TabMarkList](./tabmarklist.html)
