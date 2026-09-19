@@ -15,6 +15,10 @@ KawaNova / KawaDev が開発・提供しているアプリおよび Chrome 拡�
 
 * [Android — 簿記3級 仕訳ミニドリル](./android-boki-journal-drill.html) — com.kawanova.bokijournal
 
+* [Android — たてながスクショ](./android-tatenaga.html) — com.kawanova.tatenaga
+
+* [Android — AuraPitch / OtoTore（mimitore）](./android-aurapitch.html) — com.kawanova.aurapitch
+
 ## Chrome 拡張機能
 
 * [TabMarkList](./tabmarklist.html)
