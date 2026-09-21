@@ -21,11 +21,22 @@ Hosted privacy policies for [KawaNova](https://github.com/KawaNova) Android apps
 
 This repo is configured with Pages from **main / root** (uild_type: legacy).
 
-## Adding or updating a policy
+## Adding or updating a policy (Android)
 
-1. Edit or add an HTML file at the repository root.
-2. Link it from index.md if it should appear in the index.
-3. Push to main; Pages rebuilds automatically.
+Naming rule:
+
+- `android-{slug}.md` — source / editable draft
+- `android-{slug}.html` — published page for Play Console
+
+Examples: `android-rakuphotoai.html`, `android-lazyfitnessai.html`
+
+1. Add or edit both files at the repository root.
+2. Link the HTML from `index.md`.
+3. Push to `main`; Pages rebuilds automatically.
+4. Register `https://kawanova.github.io/privacy-policy/android-{slug}.html` in Play Console.
+
+Do **not** put Play Store policies only inside private app repos (Pages may be unavailable). Use this public `privacy-policy` repo.
+
 
 ## OffMoji source of truth (app repo)
 
