@@ -36,6 +36,7 @@ KawaNova / KawaDev が開発・提供しているアプリおよび Chrome 拡�
 
 * [TabMarkList](./tabmarklist.html)
 * [DeepWork Vault](./deepwork-vault.html)
+* [書き置き (Sidejot)](./sidejot.html)
 
 ## GitHub Pages
 
