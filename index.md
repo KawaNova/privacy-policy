@@ -31,6 +31,7 @@ KawaNova / KawaDev が開発・提供しているアプリおよび Chrome 拡�
 * [Android — たてながスクショ](./android-tatenaga.html) — com.kawanova.tatenaga
 * [Android — AuraPitch / OtoTore（mimitore）](./android-aurapitch.html) — com.kawanova.aurapitch
 * [Android — ズボラFit AI](./android-lazyfitnessai.html) — com.kawanova.lazyfitnessai
+* [Android — 基本情報 科目B アルゴリズム特訓](./android-fe-drill.html) — com.kawanova.fedrill
 
 ## Chrome 拡張機能
 
